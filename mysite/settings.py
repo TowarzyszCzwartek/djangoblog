@@ -26,7 +26,8 @@ SECRET_KEY = '+ti2z^%@_9bz4(zj!n8r0*d96#&8u!@1ihkby+x^$56y)pctz^'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-	'towarzyszczwartek.pythonanywhere.com' 
+	'*.pythonanywhere.com',
+	'127.0.0.1:8000'
 ]
 
 
